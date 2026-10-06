@@ -32,3 +32,4 @@ For persistent deduplication across every redeploy, use a persistent Railway vol
 Without a persistent volume, a redeploy seeds a fresh baseline, so it still will not spam old entries, but it forgets the prior state.
 Railway redeploy
 Railway redeploy test
+IMD Telegram Monitor started
