@@ -30,3 +30,4 @@ On the first successful run it intentionally does not send the existing history,
 
 For persistent deduplication across every redeploy, use a persistent Railway volume for `state.json`.
 Without a persistent volume, a redeploy seeds a fresh baseline, so it still will not spam old entries, but it forgets the prior state.
+Railway redeploy
